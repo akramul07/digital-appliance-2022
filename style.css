@@ -1,0 +1,39 @@
+/* ================================================
+                    common style 
+    ================================================ */
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.nav-container{
+    display: flex;
+    padding : 0px;
+}
+.nav-left p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    height: 52px;
+    width: 243px;
+    left: 120px;
+    top: 87px;
+    margin: 87px auto 72px 120px;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+    margin-left: 864px;
+    font-weight: 400;
+}
+.nav-right ul, li{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 16px;
+}
+.fas{
+    padding: 15px;
+    font-size: 25px;
+}
