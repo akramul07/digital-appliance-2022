@@ -1,14 +1,38 @@
-/* ================================================
+/* =================================================
                     common style 
     ================================================ */
 body{
+    background-color: whitesmoke;
     margin: 0px;
     padding: 0px;
     font-family: 'Poppins', sans-serif;
 }
+button{
+    font-size: 20px;
+    background-color: #ee5f26;
+    text-transform: uppercase;
+    outline: none;
+    border-radius: 50px;
+    text-align: center;
+    padding-left: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    color: black;
+    font-size: 25px;
+}
+.text-highlight{
+    color: #ee5f26;
+}
+/* =================================================================
+                         navigation start 
+   ================================================================== */
 .nav-container{
     display: flex;
     padding : 0px;
+    margin: 0px;
 }
 .nav-left p{
     font-family: 'Poppins', sans-serif;
@@ -23,8 +47,9 @@ body{
 .nav-right{
     display: flex;
     align-items: center;
-    margin-left: 864px;
+    margin-left: 893px;
     font-weight: 400;
+    
 }
 .nav-right ul, li{
     display: flex;
@@ -37,3 +62,56 @@ body{
     padding: 15px;
     font-size: 25px;
 }
+/* =================================================================
+                      Top Header-section 
+    ================================================================ */
+.header-section{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+#main-heading{
+    font-weight: bold;
+    font-size: 60px;
+    margin: 0px auto auto auto;
+    color: rgb(117, 112, 112);
+}
+
+.left-header-section{
+    height: 400px;
+    width: 600px;
+    margin-left: 120px;
+    padding: 50px;
+    color: rgb(105, 105, 103);
+    text-align: justify;
+    border-radius: 5px;
+}
+.left-header-section:hover{
+    box-shadow: 0 30px 35px rgba(0,0,0,.2);
+}
+.right-header-section{
+    position: relative;
+    height: 475px;
+    width: 582px;
+    margin: 50px 120px 70px auto;
+    padding: 50px;
+    border-radius: 5px;
+}
+.right-header-section:hover{
+    box-shadow: 0 30px 35px rgba(0,0,0,.2);
+}
+
+.header-image, #header-image-background{
+    height: 475px;
+    width: 475px;
+}
+.header-image-background, img{
+    height: 350px;
+    width: 475px;
+    position: absolute;
+    margin: 20px 10px auto 100px;
+}
+.header-image-background{
+    margin: auto 0px auto 100px;
+}
+
